@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class Prgram {
     public static void main(String[] args) {
-        int[] x = {1,2,3,3,4,5};
+        int[] x = {1,6,2,3,3,4,5};
         int []temp=new int[x.length];
         int j=0;
         for(int i=0;i<x.length-1;i++){
@@ -18,7 +18,7 @@ public class Prgram {
         for(int i=0;i<j;i++){
             System.out.println(temp[i]);
         }
-
+System.out.println(temp[j]);
         }
     }
 

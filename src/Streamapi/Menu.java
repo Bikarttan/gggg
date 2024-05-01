@@ -11,6 +11,18 @@ public class Menu {
         this.type = type;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCalories(int calories) {
+        this.calories = calories;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String getName() {
         return name;
     }
